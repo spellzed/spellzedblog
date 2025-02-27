@@ -873,7 +873,7 @@ So that's it! over 9000 words and a few too many bear puns later, I'm glad to ha
 
 Please reach out if you have any questions or feedback, or just to chat DFIR.
 
-As promised, you can also download the completed IR tracker and Mitre Attack navigator layer for this lab.
+As promised, you can download the completed IR tracker and Mitre Attack navigator layer for this lab below.
 
 ### Downloads
 

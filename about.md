@@ -1,6 +1,8 @@
 ---
 title: About
 layout: default
+description: About the Spellzed DFIR blog
+
 ---
 # ./home/spellzed
 
@@ -10,6 +12,8 @@ Day job: Incident Responder
 
 # Website and theme
 
-This Website was created with the help of Github Pages and the "Hacker" Theme
-<br>
+Favicon created at [favicon.io](https://favicon.io)
+
+GitHub Pages "Hacker" theme:
+
 <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
