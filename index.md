@@ -6,8 +6,10 @@ description: About the Spellzed DFIR blog
 ---
 # ./home/spellzed
 
-[@spellzed](https://github.com/spellzed)
+[GitHub](https://github.com/spellzed)
+
 [Linkedin](https://www.linkedin.com/)
+
 Day job: Incident Responder
 
 # Website and theme
