@@ -1,0 +1,6 @@
+list_title: Pages
+docs:
+  - name: About
+    url: /index.html
+  - name: Blog
+    url: /blog.html
