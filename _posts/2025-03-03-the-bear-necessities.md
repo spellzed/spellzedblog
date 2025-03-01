@@ -1,7 +1,6 @@
 ---
 layout: post
 author: spellzed
-date: 2025-03-03 00:00:00
 description: XINTRA labs TechTonik DFIR Walkthrough
 toc: true
 tags: walkthrough, XINTRA Labs, TechTonik
