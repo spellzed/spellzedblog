@@ -13,9 +13,9 @@ tags: walkthrough, XINTRA Labs, TechTonik
 
 The Threat Actor in focus is *APT29* a.k.a. *Cozy Bear*, an activity group often attributed to Russia's Foreign Intelligence Service (SVR). On December 13, 2023, the U.S. Cybersecurity & Infrastructure Security Agency (CISA) released an [advisory describing APT29's exploitation of CVE-2023-42793](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a) in *JetBrains TeamCity* software which will set the stage for today's emulated compromise.
 
- Writing this walkthrough helped me clarify my thought processes and identify areas to improve in my investigations. I'm super keen to hear from any readers. A link to my completed IR tracker for this lab and the Mitre ATT&CK navigator layer can be found at the end. 
+ Writing this walkthrough helped me clarify my thought processes and identify areas to improve in my investigations. This walkthrough doesn't just seek to find the flags. My vision was to use the questions as a narrative "skeleton" to navigate the lab and tell the story of TechTonik.  **[The completed IR tracker for this lab and the Mitre ATT&CK navigator layer can be found at the end.]({{ post.url | relative_url }}#my-downloads)**
 
-This walkthrough doesn't just seek to find the flags. My vision was to use the questions as a narrative "skeleton" to navigate the lab and tell the story of TechTonik. 
+Let's go hunt ourselves a bear!
 
 <!-- excerpt-end -->
 
@@ -873,7 +873,7 @@ A big thank you to my **editors** (you know who you are!) who really helped me w
 
 Feel free to reach out if you want to chat DFIR or if you have any questions!
 
-### Downloads
+## My Downloads
 
 1. <a href="{{site.baseurl}}/assets/downloads/techtonik-ir-tracker.xlsx" download>
   <img src="{{site.baseurl}}/assets/downloads/techtonik-ir-tracker.xlsx" alt="IR Tracker">

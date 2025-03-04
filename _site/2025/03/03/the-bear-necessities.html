@@ -81,8 +81,11 @@
 <ul id="toc" class="toc-list">
 <li class="toc-entry toc-h1"><a href="#the-bear-necessities-a-xintra-labs-walkthrough">The Bear Necessities: a XINTRA Labs Walkthrough</a>
 <ul class="toc-sublist">
-<li class="toc-entry toc-h2"><a href="#case-overview">Case Overview</a></li>
-<li class="toc-entry toc-h2"><a href="#lab-environment">Lab Environment</a></li>
+<li class="toc-entry toc-h2"><a href="#case-overview">Case Overview</a>
+<ul class="toc-sublist">
+<li class="toc-entry toc-h3"><a href="#lab-environment">Lab Environment</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#lets-go-already-i-can-bear-ly-wait">Let’s go already, I can bear-ly wait!</a>
@@ -131,7 +134,7 @@
 </li>
 <li class="toc-entry toc-h1"><a href="#our-grizzly-end">Our Grizzly End</a>
 <ul class="toc-sublist">
-<li class="toc-entry toc-h3"><a href="#downloads">Downloads</a></li>
+<li class="toc-entry toc-h2"><a href="#my-downloads">My Downloads</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#sources">Sources</a></li>
@@ -142,9 +145,9 @@
 
 <p>The Threat Actor in focus is <em>APT29</em> a.k.a. <em>Cozy Bear</em>, an activity group often attributed to Russia’s Foreign Intelligence Service (SVR). On December 13, 2023, the U.S. Cybersecurity &amp; Infrastructure Security Agency (CISA) released an <a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a">advisory describing APT29’s exploitation of CVE-2023-42793</a> in <em>JetBrains TeamCity</em> software which will set the stage for today’s emulated compromise.</p>
 
-<p>Writing this walkthrough helped me clarify my thought processes and identify areas to improve in my investigations. I’m super keen to hear from any readers. A link to my completed IR tracker for this lab and the Mitre ATT&amp;CK navigator layer can be found at the end.</p>
+<p>Writing this walkthrough helped me clarify my thought processes and identify areas to improve in my investigations. This walkthrough doesn’t just seek to find the flags. My vision was to use the questions as a narrative “skeleton” to navigate the lab and tell the story of TechTonik.  <strong><a href="#my-downloads">The completed IR tracker for this lab and the Mitre ATT&amp;CK navigator layer can be found at the end.</a></strong></p>
 
-<p>This walkthrough doesn’t just seek to find the flags. My vision was to use the questions as a narrative “skeleton” to navigate the lab and tell the story of TechTonik.</p>
+<p>Let’s go hunt ourselves a bear!</p>
 
 <!-- excerpt-end -->
 
@@ -176,8 +179,8 @@
 In a software development company, I would expect separate testing environments (DEV, INT, PROD). The network layout allows for an attacker to attempt entry via internet-facing servers.</p>
 </blockquote>
 
-<h2 id="lab-environment">
-<a class="anchor" href="#lab-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab Environment</h2>
+<h3 id="lab-environment">
+<a class="anchor" href="#lab-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab Environment</h3>
 
 <p>XINTRA hosts their labs on a Windows 11 AWS VM which already includes the tools, snapshots and evidence required for the investigation. Just one click and the instance will be prepared for you.</p>
 
@@ -1232,8 +1235,8 @@ ParentUser: techtonik\scavo.divya
 
 <p>Feel free to reach out if you want to chat DFIR or if you have any questions!</p>
 
-<h3 id="downloads">
-<a class="anchor" href="#downloads" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloads</h3>
+<h2 id="my-downloads">
+<a class="anchor" href="#my-downloads" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Downloads</h2>
 
 <ol>
   <li>
