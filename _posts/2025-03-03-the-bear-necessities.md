@@ -22,9 +22,9 @@ This walkthrough doesn't just seek to find the flags. My vision was to use the q
 
 ## Case Overview: TechTonik
 
-For this walkthrough I picked ***TechTonik***, a (presumably large and successful) Fortune 500 technology company. 
+For this walkthrough I picked ***TechTonik***, a Fortune 500 technology company. 
 
-![techtonik lab]({{site.baseurl}}/assets/images/techtoniklab.png)
+![cert]({{site.baseurl}}/assets/images/cert.png)
 
 The Threat Actor in focus is *APT29* a.k.a. *Cozy Bear*, an activity group often attributed to Russia's Foreign Intelligence Service (SVR). On December 13, 2023, the U.S. Cybersecurity & Infrastructure Security Agency (CISA) released an [advisory describing APT29's exploitation of CVE-2023-42793](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a) in *JetBrains TeamCity* software which will set the stage for today's emulated compromise.
 
