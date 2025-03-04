@@ -12,7 +12,9 @@ description: About the Spellzed DFIR blog
 
 Day job: Incident Responder
 
-Current interests: Detection Engineering, Threat Hunting, Incident Response Management
+Top Skills: Incident Management, Incident Response, Digital Forensics, Stakeholder Communication
+
+Current Interests: Detection Engineering, Threat Hunting
 
 # Website and theme
 
