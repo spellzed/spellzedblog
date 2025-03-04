@@ -203,6 +203,12 @@ hr {
   color: #b5e853;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Buttons
 */
 
@@ -305,3 +311,5 @@ nav img {
 nav img:hover {
   filter: brightness(1.5) drop-shadow(0 0 8px #b5e853); /* Glow effect for images */
 }
+
+
