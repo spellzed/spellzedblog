@@ -883,11 +883,13 @@ Feel free to reach out if you want to chat DFIR or if you have any questions!
   <img src="{{site.baseurl}}/assets/downloads/techtonik-layer.json" alt="Mitre Attack navigator layer">
 </a>
 
-# Sources
+# Sources and Credits
 
 Memes generated at [Meme Generator - ImgFlip](https://imgflip.com/memegenerator)
 
 Hashes checked at [VirusTotal](https://www.virustotal.com)
+
+_Cosy Bear_'s likeness was generated with the assistance of DALL·E
 
 Linked articles in order of appearance:
 1. [Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally &#124; CISA](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a)
